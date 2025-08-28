@@ -1,7 +1,7 @@
 services:
   - type: worker
     name: kindy-bot-python
-    env: python
+    runtime: python
     pythonVersion: 3.10.14
     region: oregon
     plan: starter
