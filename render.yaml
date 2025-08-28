@@ -2,6 +2,7 @@ services:
   - type: worker
     name: kindy-bot-python
     env: python
+    pythonVersion: 3.10.14
     region: oregon
     plan: starter
     buildCommand: "pip install --upgrade pip setuptools wheel && pip install -r requirements.txt"
